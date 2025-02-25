@@ -52,4 +52,9 @@ class Program
         Console.Write("Введите A: ");
         A = Convert.ToDouble(Console.ReadLine());
     }
+    static void InputB()
+    {
+        Console.Write("Введите B: ");
+        B = Convert.ToDouble(Console.ReadLine());
+    }
 }

@@ -47,5 +47,5 @@ class Program
             }
         }
     }
-
+    static double Add(double a, double b) => a + b;
 }

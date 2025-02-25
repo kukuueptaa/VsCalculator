@@ -47,5 +47,6 @@ class Program
             }
         }
     }
+    static double Divide(double a, double b) => b != 0 ? a / b : throw new DivideByZeroException("Деление на ноль запрещено!");
 
 }

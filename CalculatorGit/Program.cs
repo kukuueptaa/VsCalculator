@@ -57,4 +57,5 @@ class Program
         Console.Write("Введите B: ");
         B = Convert.ToDouble(Console.ReadLine());
     }
+    static double Add(double a, double b) => a + b;
 }

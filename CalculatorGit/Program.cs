@@ -47,5 +47,6 @@ class Program
             }
         }
     }
+    static double Subtract(double a, double b) => a - b;
 
 }

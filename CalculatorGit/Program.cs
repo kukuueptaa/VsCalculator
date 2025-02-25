@@ -60,6 +60,5 @@ class Program
     static double Add(double a, double b) => a + b;
     static double Subtract(double a, double b) => a - b;
     static double Divide(double a, double b) => b != 0 ? a / b : throw new DivideByZeroException("Деление на ноль запрещено!");
-
     static double Multiply(double a, double b) => a * b;
 }

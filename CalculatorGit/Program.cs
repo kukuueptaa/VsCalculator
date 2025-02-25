@@ -60,4 +60,5 @@ class Program
     static double Add(double a, double b) => a + b;
     static double Subtract(double a, double b) => a - b;
 
+    static double Multiply(double a, double b) => a * b;
 }

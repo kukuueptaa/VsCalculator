@@ -47,5 +47,9 @@ class Program
             }
         }
     }
-
+    static void InputB()
+    {
+        Console.Write("Введите B: ");
+        B = Convert.ToDouble(Console.ReadLine());
+    }
 }
